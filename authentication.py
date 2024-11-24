@@ -2,7 +2,7 @@ from pathlib import Path
 import speech_recognition as sr
 import pandas as pd
 import traceback
-from dotenv import load_dotenv
+
 import streamlit as st
 from streamlit_ace import st_ace
 from PIL import Image
