@@ -399,9 +399,8 @@ if selected=="Fake Profile Detector":
     lottie_social_media = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_tno6cg2w.json")
 
     # Hardcoded credentials for demonstration purposes
-    USERNAME = "welcome_solar_system"               #"henna_by_shiz" # welcome_solar_system
-    PASSWORD = "JaiShreeRam" #"Shiza@9336" #  JaiShreeRam
-
+    USERNAME = "welcome_solar_system"        
+    PASSWORD = "JaiShreeRam" 
     # Enhanced Scoring Function
     def calculate_fake_profile_score(followers, following, posts, biography):
         score = 0
@@ -543,8 +542,7 @@ if selected=="Fake Profile Detector":
                 st.error("This profile is highly suspicious! Avoid engaging with it.")
                 s=get_gemini_response("this profile is fake and you have tell some reamse and tell how can i impove it")
                 st.write(s)
-        except LoginRequiredException:
-            st.error("Login required. Please ensure your credentials are correct.")
+
         except Exception as e:
             st.error(f"Error fetching profile: {e}")
 
