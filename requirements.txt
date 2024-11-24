@@ -17,3 +17,5 @@ streamlit_shadcn_ui
 PyPDF2
 password-strength
 pickle5
+npmpy
+pandas
