@@ -17,6 +17,9 @@ seaborn
 streamlit_shadcn_ui
 PyPDF2
 password-strength
+instaloader
+plotly
+requests
 
 npmpy
 pandas
