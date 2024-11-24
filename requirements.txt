@@ -2,6 +2,7 @@ SpeechRecognition
 streamlit
 streamlit-ace
 streamlit-extras
+scikit-learn
 pdf2image
 gtts
 pillow
