@@ -1,0 +1,17 @@
+SpeechRecognition
+streamlit
+streamlit-ace
+streamlit-extras
+pdf2image
+gtts
+pillow
+google.generativeai
+IPython
+streamlit-lottie
+requests
+youtube-transcript-api
+streamlit-option-menu
+streamlit-webrtc
+seaborn
+streamlit_shadcn_ui
+PyPDF2
