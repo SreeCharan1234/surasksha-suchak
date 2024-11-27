@@ -23,8 +23,8 @@ import requests
 
 global s
 k=0
-os.getenv("AIzaSyD3G-xUXIdyGNt81Ar-fr3G-ZNV2ZwMUtk")
-genai.configure(api_key="AIzaSyD3G-xUXIdyGNt81Ar-fr3G-ZNV2ZwMUtk")
+os.getenv("AIzaSyDwX2irhbT4LU8K8jhvFPHAaKp91qA3LLI")
+genai.configure(api_key="AIzaSyDwX2irhbT4LU8K8jhvFPHAaKp91qA3LLI")
 
 st.set_page_config(layout="wide")
 def example():
