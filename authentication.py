@@ -71,7 +71,7 @@ if selected=="AI-Enhanced Password":
     import pandas as pd
     from password_strength import PasswordPolicy
     
-    genai.configure(api_key="AIzaSyAgqZ8JeBuEGF1zceil9g0DLKFnoyB8W-k")
+    genai.configure(api_key="AIzaSyDwX2irhbT4LU8K8jhvFPHAaKp91qA3LLI")
     
     # Function to generate a password using Generative AI
     def generate_password(length, complexity):
